@@ -1,5 +1,6 @@
 # plinko-sim
-(in progress)
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+
 
 Plinko Sim is a physics-based arcade simulation built in C using the Raylib graphics library.
 
