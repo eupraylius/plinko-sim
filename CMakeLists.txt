@@ -3,9 +3,8 @@ project(physics_sim C)
 
 set(CMAKE_C_STANDARD 11)
 
-# Correct Raylib paths (based on your screenshot)
 set(RAYLIB_INCLUDE_DIR "C:/raylib/raylib/src")
-set(RAYLIB_LIB_DIR "C:/raylib/raylib/src")  # libraylib.a is also there
+set(RAYLIB_LIB_DIR "C:/raylib/raylib/src") 
 
 include_directories(${RAYLIB_INCLUDE_DIR})
 link_directories(${RAYLIB_LIB_DIR})
